@@ -27,7 +27,10 @@ const Navbar = () => {
 
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
-            <li className={`${active===link.title? "text-white":"text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`}>
+            <li 
+            key={link.id}
+            
+            className={`${active===link.title? "text-white":"text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`}>
               <a href={`#${link.id}`}
               onClick={() => {setactive(link.title)}}
               >
@@ -46,7 +49,9 @@ const Navbar = () => {
 
           <ul className="list-none flex justify-end items-start flex-col gap-4">
           {navLinks.map((link) => (
-            <li className={`${active===link.title? "text-white":"text-secondary"} font-poppins font-medium cursor-pointer text-[16px]`}>
+            <li
+            key={link.id} 
+            className={`${active===link.title? "text-white":"text-secondary"} font-poppins font-medium cursor-pointer text-[16px]`}>
               <a href={`#${link.id}`}
               onClick={() => {
                 setToggle(!toggle);
