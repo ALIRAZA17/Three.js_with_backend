@@ -17,8 +17,45 @@ const Contact = () => {
 
   const [Loading, setLoading] = useState(false)
 
-  const handleChange = e => {}
-  const handleSubmit = e => {}
+  const handleChange = e => {
+    const { name, value } = e.target
+    setform({ ...form, [name]: value })
+  }
+  const handleSubmit = e => {
+    e.preventDefault()
+    setLoading(true)
+    emailjs
+      .send(
+        'service_6kmkmfm',
+        'template_8c4r3uj',
+        {
+          from_name: form.name,
+          to_name: 'Ali',
+          from_email: form.email,
+          to_email: 'ialidar2001@gmail.com',
+          message: form.message
+        },
+        'AafqkQNtv2wVcNiIf'
+      )
+
+      .then(
+        () => {
+          setLoading(false)
+          alert('Thank you. I will get back to you soon.')
+
+          setform({
+            name: '',
+            email: '',
+            message: ''
+          })
+        },
+        error => {
+          setLoading(false)
+          console.log(error)
+          alert('Something went wrong. Please try again later.')
+        }
+      )
+  }
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
@@ -60,7 +97,7 @@ const Contact = () => {
             <span className='text-white font-medium mb-4'>Your Message</span>
             <textarea
               rows={7}
-              name='name'
+              name='message'
               value={form.message}
               onChange={handleChange}
               placeholder='What do you want to say?'
