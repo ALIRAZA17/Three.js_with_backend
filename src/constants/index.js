@@ -4,17 +4,17 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  flutter,
   html,
   css,
   reactjs,
-  redux,
+  kotlin,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
+  firebase,
   swam_tech,
   walee,
   carrent,
@@ -74,16 +74,16 @@ const technologies = [
     icon: javascript
   },
   {
-    name: 'TypeScript',
-    icon: typescript
+    name: 'Flutter',
+    icon: flutter
   },
   {
     name: 'React JS',
     icon: reactjs
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux
+    name: 'Kotlin',
+    icon: kotlin
   },
   {
     name: 'Tailwind CSS',
@@ -110,8 +110,8 @@ const technologies = [
     icon: figma
   },
   {
-    name: 'docker',
-    icon: docker
+    name: 'Firebase',
+    icon: firebase
   }
 ]
 
