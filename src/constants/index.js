@@ -15,14 +15,15 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  swam_tech,
+  walee,
   carrent,
   jobit,
   tripguide,
-  threejs
+  threejs,
+  upmeal,
+  inlights,
+  GDSC
 } from '../assets'
 
 export const navLinks = [
@@ -46,7 +47,7 @@ const services = [
     icon: web
   },
   {
-    title: 'React Native Developer',
+    title: 'Mobile Application Developer',
     icon: mobile
   },
   {
@@ -54,7 +55,7 @@ const services = [
     icon: backend
   },
   {
-    title: 'Content Creator',
+    title: 'UI/UX Designer',
     icon: creator
   }
 ]
@@ -116,55 +117,52 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
+    title: 'Flutter Developer',
+    company_name: 'SWAM Tech',
+    icon: swam_tech,
     iconBg: '#383E56',
     date: 'March 2020 - April 2021',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
+      'Developing and maintaining mobile applications using Flutter and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
       'Implementing responsive design and ensuring cross-browser compatibility.',
       'Participating in code reviews and providing constructive feedback to other developers.'
     ]
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
+    title: 'MERN Stack Developer',
+    company_name: 'Walee',
+    icon: walee,
     iconBg: '#E6DEDD',
     date: 'Jan 2021 - Feb 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
+      'As a MERN stack developer, I worked extensively with React.js and related technologies to build and maintain web applications.',
+      'Collaborating closely with designers, product managers, and other developers, I ensured that our products were of the highest quality and met our clients needs.',
+      'Implementing responsive design and ensuring cross-browser compatibility.'
     ]
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
+    title: 'Mobile Application Lead',
+    company_name: 'GDSC NUST',
+    icon: GDSC,
     iconBg: '#383E56',
     date: 'Jan 2022 - Jan 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
+      'As the App Lead at GDSC NUST, I have been responsible for overseeing the entire mobile app development lifecycle, from ideation and design to development, testing, and deployment.',
+      'I have worked closely with team members to provide mentorship and guidance, resulting in a high-performing team that consistently delivers top-quality results.',
+      'This has allowed me to develop a comprehensive understanding of mobile app development and management.'
     ]
   },
   {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
+    title: 'Lead Flutter Developer',
+    company_name: 'Upmeal',
+    icon: upmeal,
     iconBg: '#E6DEDD',
     date: 'Jan 2023 - Present',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
+      'I have been responsible for leading the development of a discounted fine dining application for users in different restaurants.',
+      'Leveraging my expertise in Flutter, Dart, and related technologies, I have played a key role in the design, development of this innovative product.',
+      'Working closely with cross-functional teams, including designers, product managers, and other developers, I have ensured that the application meets the highest standards of quality and user experience.'
     ]
   }
 ]
