@@ -18,7 +18,7 @@ import {
   swam_tech,
   walee,
   carrent,
-  jobit,
+  jobify,
   tripguide,
   threejs,
   upmeal,
@@ -196,7 +196,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Jobify',
     description:
       'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
     tags: [
@@ -213,7 +213,7 @@ const projects = [
         color: 'pink-text-gradient'
       }
     ],
-    image: carrent,
+    image: jobify,
     source_code_link: 'https://github.com/'
   },
   {
@@ -234,7 +234,7 @@ const projects = [
         color: 'pink-text-gradient'
       }
     ],
-    image: jobit,
+    image: jobify,
     source_code_link: 'https://github.com/'
   },
   {

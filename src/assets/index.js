@@ -28,7 +28,7 @@ import inlights from './company/inlights.jpeg'
 import GDSC from './company/GDSC.png'
 
 import carrent from './carrent.png'
-import jobit from './jobit.png'
+import jobify from './jobify.png'
 import tripguide from './tripguide.png'
 
 export {
@@ -59,6 +59,6 @@ export {
   inlights,
   GDSC,
   carrent,
-  jobit,
+  jobify,
   tripguide
 }
