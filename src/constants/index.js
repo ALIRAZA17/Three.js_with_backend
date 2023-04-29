@@ -29,7 +29,7 @@ import {
   yaruq,
   shahryar,
   insta_logo,
-  linkedIn,
+  linkedIn_logo,
   gmail
 } from '../assets'
 
@@ -329,7 +329,7 @@ const projects = [
 
 const options = [
   {
-    logo: linkedIn,
+    logo: linkedIn_logo,
     link: 'https://www.linkedin.com/in/ali-raza-296793219/'
   },
   {
