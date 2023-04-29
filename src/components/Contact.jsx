@@ -114,7 +114,7 @@ const Contact = () => {
           <hr />
           <span className='text-white font-medium'>Other Contact Options</span>
 
-          <div className='flex flex-row justify-between w-1/3'>
+          <div className='flex flex-nowrap justify-between w-1/3'>
             {options.map(option => (
               <a href={option.link}>
                 <img src={option.logo} class='w-10 h-10 rounded-full' />
