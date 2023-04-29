@@ -128,7 +128,7 @@ const experiences = [
     company_name: 'SWAM Tech',
     icon: swam_tech,
     iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    date: 'June 2022 - Oct 2022',
     points: [
       'Developing and maintaining mobile applications using Flutter and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -141,7 +141,7 @@ const experiences = [
     company_name: 'Walee',
     icon: walee,
     iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    date: 'Nov 2022 - Dec 2022',
     points: [
       'As a MERN stack developer, I worked extensively with React.js and related technologies to build and maintain web applications.',
       'Collaborating closely with designers, product managers, and other developers, I ensured that our products were of the highest quality and met our clients needs.',
@@ -153,7 +153,7 @@ const experiences = [
     company_name: 'GDSC NUST',
     icon: GDSC,
     iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
+    date: 'Nov 2022 - Present',
     points: [
       'As the App Lead at GDSC NUST, I have been responsible for overseeing the entire mobile app development lifecycle, from ideation and design to development, testing, and deployment.',
       'I have worked closely with team members to provide mentorship and guidance, resulting in a high-performing team that consistently delivers top-quality results.',
