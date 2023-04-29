@@ -24,12 +24,17 @@ import threejs from './tech/threejs.svg'
 import walee from './company/walee.jpeg'
 import swam_tech from './company/swam_tech.jpeg'
 import upmeal from './company/upmeal.png'
-import inlights from './company/inlights.jpeg'
 import GDSC from './company/GDSC.png'
 
-import carrent from './carrent.png'
 import jobify from './jobify.png'
-import tripguide from './tripguide.png'
+import shopApp from './ShopApp.png'
+import talawa from './talawa.png'
+import upmeal_app from './upmeal.png'
+import instagram from './instagram.png'
+import community from './community.png'
+
+import yaruq from './testimonials/yaruq_nadeem.jpeg'
+import shahryar from './testimonials/sheryar_khan.jpeg'
 
 export {
   logo,
@@ -56,9 +61,13 @@ export {
   swam_tech,
   walee,
   upmeal,
-  inlights,
   GDSC,
-  carrent,
   jobify,
-  tripguide
+  upmeal_app,
+  community,
+  talawa,
+  instagram,
+  shopApp,
+  yaruq,
+  shahryar
 }

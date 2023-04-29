@@ -17,13 +17,17 @@ import {
   firebase,
   swam_tech,
   walee,
-  carrent,
   jobify,
-  tripguide,
+  upmeal_app,
+  talawa,
+  instagram,
+  shopApp,
   threejs,
   upmeal,
-  inlights,
-  GDSC
+  GDSC,
+  community,
+  yaruq,
+  shahryar
 } from '../assets'
 
 export const navLinks = [
@@ -170,27 +174,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg'
+      'As an intern, he was able to showcase his technical expertise and strong communication skills, which were essential to the successful delivery of our MVP.',
+    name: 'Shahryar Khan',
+    designation: 'CEO',
+    company: 'SWAM Tech',
+    image: shahryar
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg'
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
+      'During his tenure with our school, he displayed exceptional professionalism, work ethic, and dedication to his role. Highly recommend her for any future endeavors.',
+    name: 'Dorothea Stubs',
+    designation: 'Head',
+    company: 'Excalibur',
     image: 'https://randomuser.me/api/portraits/women/6.jpg'
+  },
+  {
+    testimonial:
+      'He demonstrated exceptional skills in software development, which were evident in the timely delivery of the Minimum Viable Product (MVP) for the launch.',
+    name: 'Yaruq Nadeem',
+    designation: 'Head',
+    company: 'NSTP',
+    image: yaruq
   }
 ]
 
@@ -198,14 +202,15 @@ const projects = [
   {
     name: 'Jobify',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
     tags: [
       {
-        name: 'react',
+        name: 'JS',
         color: 'blue-text-gradient'
       },
+
       {
-        name: 'mongodb',
+        name: 'laravel',
         color: 'green-text-gradient'
       },
       {
@@ -214,49 +219,108 @@ const projects = [
       }
     ],
     image: jobify,
-    source_code_link: 'https://github.com/'
+    source_code_link: 'https://github.com/ALIRAZA17/web-project'
   },
   {
-    name: 'Job IT',
+    name: 'Coffee Shop App',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'A mobile application that allows customers to order coffee and other beverages on the go. It provides a convenient way to browse the menu, place orders, without any wait. ',
     tags: [
       {
-        name: 'react',
+        name: 'kotlin',
         color: 'blue-text-gradient'
       },
       {
         name: 'restapi',
         color: 'green-text-gradient'
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient'
       }
     ],
-    image: jobify,
-    source_code_link: 'https://github.com/'
+    image: shopApp,
+    source_code_link: 'https://github.com/ALIRAZA17/Shop-App-Kotlin'
   },
   {
-    name: 'Trip Guide',
+    name: 'Talawa App',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'Open-Source Mobile Application which helps community based organizations collaborate with their members through sharing information, events, and different resources.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'Flutter',
         color: 'blue-text-gradient'
       },
       {
-        name: 'supabase',
+        name: 'GraphQL',
         color: 'green-text-gradient'
       },
       {
-        name: 'css',
+        name: 'MongoDB',
         color: 'pink-text-gradient'
       }
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/'
+    image: talawa,
+    source_code_link: 'https://github.com/ALIRAZA17/talawa'
+  },
+  {
+    name: 'Marham',
+    description:
+      'A platform to connect people in need with those who are willing and able to provide assistance.  Specifically designed to help those who are struggling financially.',
+    tags: [
+      {
+        name: 'Flutter',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'Firebase',
+        color: 'green-text-gradient'
+      },
+      {
+        name: 'GMAPI',
+        color: 'pink-text-gradient'
+      }
+    ],
+    image: community,
+    source_code_link: 'https://github.com/ALIRAZA17/Marham'
+  },
+  {
+    name: 'Upmeal',
+    description:
+      'A platform where you can avail discounts on every item on the menu. Upmeal will connect hungry tummies to empty tables by providing time-based discounts to users.',
+    tags: [
+      {
+        name: 'Flutter',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'Nodejs',
+        color: 'green-text-gradient'
+      },
+      {
+        name: 'ML',
+        color: 'pink-text-gradient'
+      }
+    ],
+    image: upmeal_app,
+    source_code_link: 'https://github.com/ALIRAZA17/upmeal_app'
+  },
+  {
+    name: 'Instagram Clone',
+    description:
+      'The mobile application serves as a social media platform that allows users to share photos and videos with their followers, similar to the popular social media app Instagram.',
+    tags: [
+      {
+        name: 'Flutter',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'Firebase',
+        color: 'green-text-gradient'
+      },
+      {
+        name: 'restapi',
+        color: 'pink-text-gradient'
+      }
+    ],
+    image: instagram,
+    source_code_link: 'https://github.com/ALIRAZA17/Instagram-clone-Flutter'
   }
 ]
 
