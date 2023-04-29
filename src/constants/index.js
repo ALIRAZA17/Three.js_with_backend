@@ -27,7 +27,10 @@ import {
   GDSC,
   community,
   yaruq,
-  shahryar
+  shahryar,
+  insta_logo,
+  linkedIn,
+  gmail
 } from '../assets'
 
 export const navLinks = [
@@ -324,4 +327,19 @@ const projects = [
   }
 ]
 
-export { services, technologies, experiences, testimonials, projects }
+const options = [
+  {
+    logo: linkedIn,
+    link: 'https://www.linkedin.com/in/ali-raza-296793219/'
+  },
+  {
+    logo: insta_logo,
+    link: 'https://www.instagram.com/m_aliiii_5/'
+  },
+  {
+    logo: gmail,
+    link: 'mailto:ialidar2001@gmail.com'
+  }
+]
+
+export { services, technologies, experiences, testimonials, projects, options }

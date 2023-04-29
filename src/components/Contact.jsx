@@ -6,6 +6,7 @@ import { styles } from '../styles'
 import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc/SectionWrapper'
 import { slideIn } from '../utils/motion'
+import { options } from '../constants'
 
 const Contact = () => {
   const formRef = useRef()
@@ -104,13 +105,22 @@ const Contact = () => {
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
-
           <button
             type='submit'
             className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'
           >
             {Loading ? 'Sending...' : 'Send'}
           </button>
+          <hr />
+          <span className='text-white font-medium'>Other Contact Options</span>
+
+          <div className='flex flex-row justify-between w-1/3'>
+            {options.map(option => (
+              <a href={option.link}>
+                <img src={option.logo} class='w-10 h-10 rounded-full' />
+              </a>
+            ))}
+          </div>
         </form>
       </motion.div>
 
