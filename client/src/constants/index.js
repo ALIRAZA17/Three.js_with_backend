@@ -122,55 +122,18 @@ const technologies = [
   }
 ]
 
-const experiences = [
+const experiences_icons = [
   {
-    title: 'Flutter Developer',
-    company_name: 'SWAM Tech',
-    icon: swam_tech,
-    iconBg: '#383E56',
-    date: 'June 2022 - Oct 2022',
-    points: [
-      'Developing and maintaining mobile applications using Flutter and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
-    ]
+    icon: swam_tech
   },
   {
-    title: 'MERN Stack Developer',
-    company_name: 'Walee',
-    icon: walee,
-    iconBg: '#E6DEDD',
-    date: 'Nov 2022 - Dec 2022',
-    points: [
-      'As a MERN stack developer, I worked extensively with React.js and related technologies to build and maintain web applications.',
-      'Collaborating closely with designers, product managers, and other developers, I ensured that our products were of the highest quality and met our clients needs.',
-      'Implementing responsive design and ensuring cross-browser compatibility.'
-    ]
+    icon: walee
   },
   {
-    title: 'Mobile Application Lead',
-    company_name: 'GDSC NUST',
-    icon: GDSC,
-    iconBg: '#383E56',
-    date: 'Nov 2022 - Present',
-    points: [
-      'As the App Lead at GDSC NUST, I have been responsible for overseeing the entire mobile app development lifecycle, from ideation and design to development, testing, and deployment.',
-      'I have worked closely with team members to provide mentorship and guidance, resulting in a high-performing team that consistently delivers top-quality results.',
-      'This has allowed me to develop a comprehensive understanding of mobile app development and management.'
-    ]
+    icon: GDSC
   },
   {
-    title: 'Lead Flutter Developer',
-    company_name: 'Upmeal',
-    icon: upmeal,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
-    points: [
-      'I have been responsible for leading the development of a discounted fine dining application for users in different restaurants.',
-      'Leveraging my expertise in Flutter, Dart, and related technologies, I have played a key role in the design, development of this innovative product.',
-      'Working closely with cross-functional teams, including designers, product managers, and other developers, I have ensured that the application meets the highest standards of quality and user experience.'
-    ]
+    icon: upmeal
   }
 ]
 
@@ -342,4 +305,11 @@ const options = [
   }
 ]
 
-export { services, technologies, experiences, testimonials, projects, options }
+export {
+  services,
+  technologies,
+  experiences_icons,
+  testimonials,
+  projects,
+  options
+}
