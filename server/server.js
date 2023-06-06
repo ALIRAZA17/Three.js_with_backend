@@ -14,7 +14,7 @@ app.use(cors())
 app.get('/navlinks', async (req, res) => {
   try {
     mongoose.connect(
-      'mongodb+srv://aliraza1724:4FFgnWhQ-bFp2Hf@cluster0.cyjy5bz.mongodb.net/?retryWrites=true&w=majority',
+      'mongodb+srv://aliraza1724:alirazadar@cluster0.cyjy5bz.mongodb.net/?retryWrites=true&w=majority',
       {
         dbName: 'portfolio',
         useNewUrlParser: true,
@@ -38,7 +38,7 @@ app.get('/navlinks', async (req, res) => {
 app.get('/experiences', async (req, res) => {
   try {
     mongoose.connect(
-      'mongodb+srv://aliraza1724:4FFgnWhQ-bFp2Hf@cluster0.cyjy5bz.mongodb.net/?retryWrites=true&w=majority',
+      'mongodb+srv://aliraza1724:alirazadar@cluster0.cyjy5bz.mongodb.net/?retryWrites=true&w=majority',
       {
         dbName: 'portfolio',
         useNewUrlParser: true,
