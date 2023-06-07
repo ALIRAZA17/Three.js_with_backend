@@ -13,14 +13,11 @@ app.use(cors())
 // Getting Navlinks data from the database
 app.get('/navlinks', async (req, res) => {
   try {
-    mongoose.connect(
-      'mongodb+srv://aliraza1724:alirazadar@cluster0.cyjy5bz.mongodb.net/?retryWrites=true&w=majority',
-      {
-        dbName: 'portfolio',
-        useNewUrlParser: true,
-        useUnifiedTopology: true
-      }
-    )
+    mongoose.connect('Your Mongoose Connection String here', {
+      dbName: 'portfolio',
+      useNewUrlParser: true,
+      useUnifiedTopology: true
+    })
     console.log('connected to db')
 
     // iss ke agay collection ko query karna hai
@@ -37,14 +34,11 @@ app.get('/navlinks', async (req, res) => {
 // Getting Experience data from the database
 app.get('/experiences', async (req, res) => {
   try {
-    mongoose.connect(
-      'mongodb+srv://aliraza1724:alirazadar@cluster0.cyjy5bz.mongodb.net/?retryWrites=true&w=majority',
-      {
-        dbName: 'portfolio',
-        useNewUrlParser: true,
-        useUnifiedTopology: true
-      }
-    )
+    mongoose.connect('Your Mongoose Connection String here', {
+      dbName: 'portfolio',
+      useNewUrlParser: true,
+      useUnifiedTopology: true
+    })
 
     // iss ke agay collection ko query karna hai
     const portfolioExperiences = await myExperiences.find({})
